@@ -1,5 +1,12 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public int[] triSelection(int[] tableau){
+        for (int i=0, tableau.size(), ++){
+            if (tableau[i]<tableau[i+1]){
+                int c = tableau[i];
+                tableau[i]=tableau[i+1];
+                tableau[i+1]=c;
+            }
+        }
+        return tableau;
     }
 }
